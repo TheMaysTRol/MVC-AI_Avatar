@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d51a0412afaa8a46ac921f578b539f0, type: 3}
+  m_Name: AnimationData
+  m_EditorClassIdentifier: 
+  idleAnimations:
+  - {fileID: -203655887218126122, guid: 8ae88075f4fd4de4097b0a1da62d6a9e, type: 3}
+  idleType: 0
+  talkingAnimations:
+  - {fileID: -203655887218126122, guid: 5e344967c43671e49a7cff771cfb4f4d, type: 3}
+  talkType: 0
+  thinkingAnimations:
+  - {fileID: -203655887218126122, guid: 0b8e1093b852cc54e90d7c4cc3e1370a, type: 3}
+  thinkType: 0

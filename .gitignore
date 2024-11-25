@@ -70,3 +70,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+Assets/ScriptableObjects/MyTTSConfig.asset
+Assets/ScriptableObjects/MyApiConfig.asset
+Assets/ScriptableObjects/MyTTSConfig.asset.meta
+Assets/ScriptableObjects/MyApiConfig.asset.meta
