@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: APIConfig
   m_EditorClassIdentifier: 
   apiUrl: https://api.groq.com/openai/v1/chat/completions
-  apiKey: <YOUR_API_KEY>
+  apiKey: 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
   model: llama3-8b-8192
   customPermanentMessage: You are alex , an astronaut who landed on an unkown planet
     ,Your ship is called UPHF9000, you can only talk about your own story and about
