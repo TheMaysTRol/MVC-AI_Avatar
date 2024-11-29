@@ -1,6 +1,6 @@
 # MVC - Unity AI Avatar
 
-[Insert project banner/demo gif here showing the avatar in space scene]
+![](Images/NpcStanding.png)
 
 A Unity project featuring an intelligent NPC avatar powered by LLM technology (via Groq API), complete with voice synthesis and dynamic animations. The project showcases an astronaut character in a space environment who can engage in meaningful conversations while maintaining context and performing realistic animations.
 
@@ -15,7 +15,7 @@ A Unity project featuring an intelligent NPC avatar powered by LLM technology (v
 - MVC architecture for clean code organization
 - Configurable components using ScriptableObjects
 
-[Insert gif/video showing conversation with avatar]
+![](Images/NPC.gif)
 
 ## 🛠 Prerequisites
 
@@ -48,7 +48,10 @@ The project follows the MVC (Model-View-Controller) pattern and is organized int
        └── TTSService
 ```
 
-[Insert architecture diagram showing component relationships]
+![](Images/CompsArch.png)
+
+![](Images/CompsArch2.png)
+
 
 ## 🎮 Configuration
 
@@ -61,7 +64,7 @@ The project uses ScriptableObjects for easy configuration:
 - Model
 - Context (Avatar's role and personality)
 
-[Insert screenshot of APIConfig ScriptableObject]
+![](Images/ApiConfig.png)
 
 #### TTSConfig
 - API URL
@@ -71,20 +74,20 @@ The project uses ScriptableObjects for easy configuration:
 - Voice Engine
 - Output Format
 
-[Insert screenshot of TTSConfig ScriptableObject]
+![](Images/TTSConfig.png)
 
 #### TypeWriterDefault
 - Letter Delay
 - Punctuation Delay
 - Punctuation Marks
 
-[Insert screenshot of TypeWriterDefault ScriptableObject]
+![](Images/TypeWriter.png)
 
 #### AnimationData
 - Animation Selection Mode (Random/Sequence/Loop)
 - Animation Clips Configuration
 
-[Insert screenshot of AnimationData ScriptableObject]
+![](Images/AnimationData.png)
 
 ## 🎭 Avatar Personality
 
@@ -102,7 +105,6 @@ The avatar features multiple animation states:
 - Thinking (when processing user input)
 - Talking (multiple variations during response)
 
-[Insert gif showing different animation states]
 
 ## 💬 Conversation System
 
@@ -113,7 +115,6 @@ The chat system includes:
 - Chat history display
 - New Chat button for context reset
 
-[Insert screenshot of chat interface]
 
 ## 🚀 Getting Started
 
